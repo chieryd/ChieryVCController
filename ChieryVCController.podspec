@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    私有资源管理容器
+                    私有资源管理容器,将VC stack放在这个容器中做管理。
+                    私有资源管理容器,将VC stack放在这个容器中做管理。
                    DESC
 
   s.homepage     = "https://github.com/chieryd/ChieryVCController"
@@ -45,6 +46,7 @@ Pod::Spec.new do |s|
                     Copyright 2012
                     Permission is granted to...
                   LICENSE
+                }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -67,7 +69,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
