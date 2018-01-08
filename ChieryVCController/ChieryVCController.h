@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ChieryVCController : NSObject
+
+@property (nonatomic, strong) UINavigationController *navigationController;
 
 @end
