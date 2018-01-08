@@ -10,4 +10,13 @@
 
 @implementation ChieryVCController
 
++ (instancetype)getInstance {
+    static ChieryVCController *vcController = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        vcController = [[ChieryVCController alloc] init];
+    });
+    return vcController;
+}
+
 @end

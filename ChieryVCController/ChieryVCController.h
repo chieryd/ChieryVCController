@@ -11,6 +11,8 @@
 
 @interface ChieryVCController : NSObject
 
++ (instancetype)getInstance;
+
 @property (nonatomic, strong) UINavigationController *navigationController;
 
 @end
